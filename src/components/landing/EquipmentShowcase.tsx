@@ -20,7 +20,7 @@ export function EquipmentShowcase() {
         <div className="max-w-2xl mb-14">
           <div className="text-xs font-bold uppercase tracking-widest text-brand mb-3">Equipment</div>
           <h2 className="text-3xl lg:text-5xl font-bold tracking-tight text-ink text-balance">
-            FirstData™ POS hardware built for every business.
+            SwipeCards POS hardware built for every business.
           </h2>
         </div>
 
