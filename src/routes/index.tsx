@@ -4,6 +4,7 @@ import { Hero } from "@/components/landing/Hero";
 import { TrustStrip } from "@/components/landing/TrustStrip";
 import { ValueProps } from "@/components/landing/ValueProps";
 import { RatesTable } from "@/components/landing/RatesTable";
+import { StatementCTA } from "@/components/landing/StatementCTA";
 import { EquipmentShowcase } from "@/components/landing/EquipmentShowcase";
 import { FAQ } from "@/components/landing/FAQ";
 import { ApplyForm } from "@/components/landing/ApplyForm";
@@ -60,6 +61,7 @@ function Index() {
         <TrustStrip />
         <ValueProps />
         <RatesTable />
+        <StatementCTA />
         <EquipmentShowcase />
         <FAQ />
         <ApplyForm />

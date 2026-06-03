@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid lg:grid-cols-4 gap-10 mb-12">
           <div className="lg:col-span-2">
             <div className="mb-5">
-              <Logo className="h-6" invert />
+              <Logo className="h-8" invert />
             </div>
             <p className="text-background/60 max-w-sm leading-relaxed">
               Honest credit card processing for modern businesses. Lower rates, free hardware, and
