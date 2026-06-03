@@ -5,16 +5,15 @@ import { TrustStrip } from "@/components/landing/TrustStrip";
 import { ValueProps } from "@/components/landing/ValueProps";
 import { RatesTable } from "@/components/landing/RatesTable";
 import { EquipmentShowcase } from "@/components/landing/EquipmentShowcase";
-import { HowItWorks } from "@/components/landing/HowItWorks";
-import { Referral } from "@/components/landing/Referral";
 import { FAQ } from "@/components/landing/FAQ";
 import { ApplyForm } from "@/components/landing/ApplyForm";
+import { Referral } from "@/components/landing/Referral";
 import { Footer } from "@/components/landing/Footer";
 import { Toaster } from "@/components/ui/sonner";
 
 const TITLE = "SwipeCards.cc — Lower Your Credit Card Processing Fees";
 const DESCRIPTION =
-  "Honest credit card processing at industry-best rates. Free mobile readers, FirstData POS terminals, next-day deposits, and 24/7 US support.";
+  "Honest credit card processing at industry-best rates. Free hardware, next-day deposits, and 24/7 US support. Already have a POS? We'll beat your current rate.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -62,7 +61,6 @@ function Index() {
         <ValueProps />
         <RatesTable />
         <EquipmentShowcase />
-        <HowItWorks />
         <FAQ />
         <ApplyForm />
         <Referral />
@@ -72,3 +70,4 @@ function Index() {
     </div>
   );
 }
+

@@ -15,16 +15,16 @@ function Feature({ children }: { children: React.ReactNode }) {
 
 export function EquipmentShowcase() {
   return (
-    <section id="equipment" className="py-24 lg:py-32 bg-surface">
+    <section id="equipment" className="py-20 lg:py-28 bg-surface">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="max-w-2xl mb-20">
+        <div className="max-w-2xl mb-14">
           <div className="text-xs font-bold uppercase tracking-widest text-brand mb-3">Equipment</div>
           <h2 className="text-3xl lg:text-5xl font-bold tracking-tight text-ink text-balance">
             FirstData™ POS hardware built for every business.
           </h2>
         </div>
 
-        <div className="space-y-24">
+        <div className="space-y-20">
           {/* Retail */}
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="rounded-3xl overflow-hidden border border-border bg-card shadow-xl shadow-ink/5">
