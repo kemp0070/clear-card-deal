@@ -2,7 +2,7 @@ import { Mail, ArrowRight, FileText } from "lucide-react";
 
 export function StatementCTA() {
   return (
-    <section className="py-16 lg:py-20 bg-background">
+    <section className="py-16 lg:py-20 bg-brand-soft">
       <div className="max-w-6xl mx-auto px-6">
         <div className="relative overflow-hidden rounded-3xl border-2 border-brand/20 bg-gradient-to-br from-brand-soft via-background to-brand-soft p-8 lg:p-12 shadow-xl shadow-brand/10">
           <div className="absolute -top-20 -right-20 size-72 bg-brand/20 blur-[100px] rounded-full" />
