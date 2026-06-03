@@ -9,7 +9,7 @@ export function Nav() {
           <a href="#top" className="flex items-center">
             <Logo className="h-9" />
           </a>
-          <div className="hidden md:flex gap-7 text-sm font-medium text-muted-foreground">
+          <div className="hidden md:flex gap-7 text-sm font-medium text-ink">
             <a href="#solutions" className="hover:text-brand transition-colors">Solutions</a>
             <a href="#equipment" className="hover:text-brand transition-colors">Equipment</a>
             <a href="#rates" className="hover:text-brand transition-colors">Rates</a>
