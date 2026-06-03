@@ -3,7 +3,7 @@ import { Logo } from "./Logo";
 
 export function Nav() {
   return (
-    <nav className="sticky top-0 z-50 w-full bg-background/85 backdrop-blur-md border-b border-border">
+    <nav className="sticky top-0 z-50 w-full bg-surface/95 backdrop-blur-md border-b border-border shadow-sm">
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         <div className="flex items-center gap-10">
           <a href="#top" className="flex items-center">
@@ -17,8 +17,8 @@ export function Nav() {
           </div>
         </div>
         <div className="flex items-center gap-4">
-          <a href="tel:18665635691" className="hidden lg:flex items-center gap-2 text-sm font-semibold text-ink">
-            <Phone className="size-4 text-brand" /> 866-563-5691
+          <a href="tel:16304920697" className="hidden lg:flex items-center gap-2 text-sm font-semibold text-ink">
+            <Phone className="size-4 text-brand" /> (630) 492-0697
           </a>
           <a
             href="#apply"

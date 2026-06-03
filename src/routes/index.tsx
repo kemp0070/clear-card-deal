@@ -36,7 +36,7 @@ export const Route = createFileRoute("/")({
           name: "SwipeCards.cc",
           url: "https://swipecards.cc",
           email: "sales@swipecards.cc",
-          telephone: "+1-866-563-5691",
+          telephone: "+1-630-492-0697",
           address: {
             "@type": "PostalAddress",
             streetAddress: "110 E Schiller #310",

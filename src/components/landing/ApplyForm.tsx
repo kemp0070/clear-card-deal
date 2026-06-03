@@ -50,7 +50,7 @@ export function ApplyForm() {
   };
 
   return (
-    <section id="apply" className="py-24 lg:py-32 bg-background">
+    <section id="apply" className="py-24 lg:py-32 bg-surface">
       <div className="max-w-6xl mx-auto px-6 grid lg:grid-cols-[1fr_1.2fr] gap-12 lg:gap-20 items-start">
         <div className="lg:sticky lg:top-24">
           <div className="text-xs font-bold uppercase tracking-widest text-brand mb-3">Apply now</div>

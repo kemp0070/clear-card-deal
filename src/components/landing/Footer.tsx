@@ -27,9 +27,9 @@ export function Footer() {
                 <Mail className="size-4 text-background/40" />
                 <span>sales@swipecards.cc</span>
               </a>
-              <a href="tel:18665635691" className="flex items-center gap-2.5 hover:text-background transition-colors">
+              <a href="tel:16304920697" className="flex items-center gap-2.5 hover:text-background transition-colors">
                 <Phone className="size-4 text-background/40" />
-                <span>866-563-5691</span>
+                <span>(630) 492-0697</span>
               </a>
             </address>
           </div>
