@@ -11,8 +11,8 @@ export function Footer() {
               <Logo className="h-8" invert />
             </div>
             <p className="text-background/60 max-w-sm leading-relaxed">
-              Honest credit card processing for modern businesses. Lower rates, free hardware, and
-              real support — without changing your bank.
+              Honest credit card processing for modern businesses. Lower rates, transparent
+              contracts, free mobile card readers, and real support — without changing your bank.
             </p>
           </div>
 

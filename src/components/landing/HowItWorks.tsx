@@ -12,7 +12,7 @@ const steps = [
   {
     n: "03",
     title: "Start processing",
-    body: "Free hardware ships overnight. Most merchants are live the next business day.",
+    body: "Free mobile card readers ship overnight, gateway software is configured, and your merchant account is set up. Most merchants are live the next business day.",
   },
 ];
 

@@ -15,8 +15,9 @@ export function Hero() {
             <span className="text-brand">swipe.</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-[52ch] mb-8 leading-relaxed">
-            Honest merchant services built for modern business — free terminals, next-day
-            deposits, and 24/7 US support. <strong className="text-ink font-semibold">Already have a POS? We'll come in and beat your current rate.</strong>
+            Honest pricing, transparent contracts, and full merchant account setup — including
+            gateway software, free reprogramming, next-day deposits, and 24/7 US support.{" "}
+            <strong className="text-ink font-semibold">Already have a POS? We'll come in and beat your current rate.</strong>
           </p>
           <div className="flex flex-wrap items-center gap-3 mb-8">
             <a
@@ -33,8 +34,8 @@ export function Hero() {
             </a>
           </div>
           <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-xs text-muted-foreground">
-            <Pill>No contracts</Pill>
-            <Pill>Free terminal program</Pill>
+            <Pill>Transparent contracts</Pill>
+            <Pill>Free mobile card readers</Pill>
             <Pill>Keep your bank</Pill>
           </div>
         </div>
@@ -74,8 +75,8 @@ function HeroVisual() {
           </div>
           <div className="mt-8 pt-6 border-t border-border grid grid-cols-3 gap-4">
             <Stat label="Setup fee" value="$0" />
-            <Stat label="Contract" value="None" />
-            <Stat label="Hardware" value="Free" />
+            <Stat label="Contracts" value="Transparent" />
+            <Stat label="Mobile readers" value="Free" />
           </div>
         </div>
       </div>
