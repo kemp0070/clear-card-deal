@@ -2,17 +2,17 @@ import { ArrowRight } from "lucide-react";
 
 export function RatesTable() {
   return (
-    <section id="rates" className="py-20 lg:py-28 bg-ink text-background relative overflow-hidden">
-      <div className="absolute -top-32 left-1/2 -translate-x-1/2 size-[600px] bg-brand/20 blur-[140px] rounded-full" />
+    <section id="rates" className="py-20 lg:py-28 bg-brand-soft text-ink relative overflow-hidden">
+      <div className="absolute -top-32 left-1/2 -translate-x-1/2 size-[600px] bg-brand/15 blur-[140px] rounded-full" />
       <div className="relative max-w-6xl mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-14">
           <div className="text-xs font-bold uppercase tracking-widest text-brand mb-3">
             Already processing?
           </div>
-          <h2 className="text-3xl lg:text-5xl font-bold mb-5 tracking-tight text-balance">
+          <h2 className="text-3xl lg:text-5xl font-bold mb-5 tracking-tight text-balance text-ink">
             We'll beat the rate you're paying today.
           </h2>
-          <p className="text-background/70 leading-relaxed">
+          <p className="text-muted-foreground leading-relaxed">
             Have a POS already? Keep it. We reprogram most major terminals for free and drop you
             onto a lower rate — usually by the next business day.
           </p>
@@ -36,18 +36,18 @@ export function RatesTable() {
           />
         </div>
 
-        <div className="rounded-3xl bg-white/5 border border-white/10 backdrop-blur p-8 lg:p-10 flex flex-col lg:flex-row items-center justify-between gap-6 text-center lg:text-left">
+        <div className="rounded-3xl bg-background border border-border shadow-sm p-8 lg:p-10 flex flex-col lg:flex-row items-center justify-between gap-6 text-center lg:text-left">
           <div>
             <div className="text-[10px] font-bold uppercase tracking-[0.2em] text-brand mb-2">
               How to get your custom quote
             </div>
-            <p className="text-lg font-semibold">
+            <p className="text-lg font-semibold text-ink">
               Email your most recent processing statement to{" "}
               <a href="mailto:sales@swipecards.cc" className="text-brand hover:underline">
                 sales@swipecards.cc
               </a>
             </p>
-            <p className="text-sm text-background/60 mt-1">
+            <p className="text-sm text-muted-foreground mt-1">
               We'll send back a side-by-side savings breakdown by the next business day.
             </p>
           </div>
@@ -65,10 +65,10 @@ export function RatesTable() {
 
 function BeatCard({ big, title, body }: { big: string; title: string; body: string }) {
   return (
-    <div className="relative rounded-2xl bg-white/5 border border-white/10 backdrop-blur p-7 overflow-hidden">
-      <div className="text-3d-light text-5xl font-bold mb-1">{big}</div>
-      <div className="text-xl font-bold mb-3">{title}</div>
-      <p className="text-sm text-background/70 leading-relaxed">{body}</p>
+    <div className="relative rounded-2xl bg-background border border-border shadow-sm p-7 overflow-hidden">
+      <div className="text-3d text-5xl font-bold mb-1">{big}</div>
+      <div className="text-xl font-bold mb-3 text-ink">{title}</div>
+      <p className="text-sm text-muted-foreground leading-relaxed">{body}</p>
     </div>
   );
 }
