@@ -7,7 +7,7 @@ const steps = [
   {
     n: "02",
     title: "Quick verification",
-    body: "A dedicated account manager calls within 2 hours with a custom rate proposal.",
+    body: "A dedicated account manager reviews your info and gets back to you by the next business day with a custom rate proposal.",
   },
   {
     n: "03",
