@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react";
+
 
 export function RatesTable() {
   return (
@@ -36,28 +36,6 @@ export function RatesTable() {
           />
         </div>
 
-        <div className="rounded-3xl bg-background border border-border shadow-sm p-8 lg:p-10 flex flex-col lg:flex-row items-center justify-between gap-6 text-center lg:text-left">
-          <div>
-            <div className="text-[10px] font-bold uppercase tracking-[0.2em] text-brand mb-2">
-              How to get your custom quote
-            </div>
-            <p className="text-lg font-semibold text-ink">
-              Email your most recent processing statement to{" "}
-              <a href="mailto:sales@swipecards.cc" className="text-brand hover:underline">
-                sales@swipecards.cc
-              </a>
-            </p>
-            <p className="text-sm text-muted-foreground mt-1">
-              We'll send back a side-by-side savings breakdown by the next business day.
-            </p>
-          </div>
-          <a
-            href="#apply"
-            className="shrink-0 inline-flex items-center gap-2 bg-brand text-primary-foreground px-6 py-3.5 rounded-xl font-semibold hover:bg-brand-dark transition-colors"
-          >
-            Start saving <ArrowRight className="size-4" />
-          </a>
-        </div>
       </div>
     </section>
   );
