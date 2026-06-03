@@ -61,18 +61,6 @@ export function ApplyForm() {
             No commitment. Just an honest, side-by-side comparison of your current rates against
             ours — prepared by a dedicated account manager.
           </p>
-          <div className="rounded-2xl border border-border bg-surface p-5 mb-8">
-            <div className="text-xs font-bold uppercase tracking-widest text-brand mb-2">
-              Already processing?
-            </div>
-            <p className="text-sm text-muted-foreground leading-relaxed">
-              Email a copy of your most recent processing statement to{" "}
-              <a href="mailto:sales@swipecards.cc" className="text-brand font-semibold hover:underline">
-                sales@swipecards.cc
-              </a>{" "}
-              and we'll send back an exact savings breakdown by the next business day.
-            </p>
-          </div>
           <div className="space-y-4 text-sm">
             <div className="flex items-center gap-3"><span className="size-1.5 rounded-full bg-brand" /> 60-second application</div>
             <div className="flex items-center gap-3"><span className="size-1.5 rounded-full bg-brand" /> Custom proposal, not a generic quote</div>

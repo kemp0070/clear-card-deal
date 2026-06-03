@@ -7,7 +7,7 @@ export function Nav() {
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         <div className="flex items-center gap-10">
           <a href="#top" className="flex items-center">
-            <Logo className="h-6" />
+            <Logo className="h-9" />
           </a>
           <div className="hidden md:flex gap-7 text-sm font-medium text-muted-foreground">
             <a href="#solutions" className="hover:text-brand transition-colors">Solutions</a>
