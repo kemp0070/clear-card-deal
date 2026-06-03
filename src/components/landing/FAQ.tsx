@@ -26,7 +26,7 @@ const items = [
 
 export function FAQ() {
   return (
-    <section id="faq" className="py-20 lg:py-28 bg-surface">
+    <section id="faq" className="py-20 lg:py-28 bg-background">
       <div className="max-w-3xl mx-auto px-6">
         <div className="text-center mb-10">
           <div className="text-xs font-bold uppercase tracking-widest text-brand mb-3">FAQ</div>
