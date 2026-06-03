@@ -64,7 +64,7 @@ export function ApplyForm() {
           <div className="space-y-4 text-sm">
             <div className="flex items-center gap-3"><span className="size-1.5 rounded-full bg-brand" /> 60-second application</div>
             <div className="flex items-center gap-3"><span className="size-1.5 rounded-full bg-brand" /> Custom proposal, not a generic quote</div>
-            <div className="flex items-center gap-3"><span className="size-1.5 rounded-full bg-brand" /> Free hardware ships overnight</div>
+            <div className="flex items-center gap-3"><span className="size-1.5 rounded-full bg-brand" /> Free mobile card readers ship overnight</div>
           </div>
         </div>
 

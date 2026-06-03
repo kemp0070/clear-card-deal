@@ -1,10 +1,10 @@
-import { Smartphone, Zap, Headphones } from "lucide-react";
+import { BadgeDollarSign, Zap, Building2, MonitorSmartphone, Settings2, Headphones } from "lucide-react";
 
 const items = [
   {
-    icon: Smartphone,
-    title: "Free hardware",
-    body: "Mobile readers and FirstData™ terminals at no cost. Accept chip, swipe, and contactless anywhere.",
+    icon: BadgeDollarSign,
+    title: "Honest pricing",
+    body: "Transparent contracts and rates we'll show you in writing — no junk fees, no surprise hikes, no fine print.",
   },
   {
     icon: Zap,
@@ -12,9 +12,24 @@ const items = [
     body: "Revenue lands in your existing business account the next business day — no batch delays.",
   },
   {
+    icon: Building2,
+    title: "Merchant account setup",
+    body: "Full onboarding handled for you — underwriting, account provisioning, and go-live coordination.",
+  },
+  {
+    icon: MonitorSmartphone,
+    title: "Gateway software included",
+    body: "Virtual terminal, online payments, invoicing, and reporting — all bundled into your account.",
+  },
+  {
+    icon: Settings2,
+    title: "Free reprogramming",
+    body: "Keep your existing POS. We reprogram most major terminals at no cost and move you to a lower rate.",
+  },
+  {
     icon: Headphones,
     title: "24/7 US support",
-    body: "Real humans, around the clock. Free setup, reprogramming, and ongoing technical help.",
+    body: "Real humans, around the clock. Free setup, ongoing technical help, and a dedicated account manager.",
   },
 ];
 
@@ -30,7 +45,7 @@ export function ValueProps() {
             Everything you need to take payments — and keep more of them.
           </h2>
         </div>
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {items.map((item) => (
             <div
               key={item.title}

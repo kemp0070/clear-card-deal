@@ -14,7 +14,7 @@ import { Toaster } from "@/components/ui/sonner";
 
 const TITLE = "SwipeCards.cc — Lower Your Credit Card Processing Fees";
 const DESCRIPTION =
-  "Honest credit card processing at industry-best rates. Free hardware, next-day deposits, and 24/7 US support. Already have a POS? We'll beat your current rate.";
+  "Honest pricing, transparent contracts, next-day deposits, full merchant account setup, gateway software, free reprogramming, free mobile card readers, and 24/7 US support. Already have a POS? We'll beat your current rate.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
