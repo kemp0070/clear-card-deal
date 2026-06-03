@@ -42,7 +42,7 @@ export function Referral() {
                 <Briefcase className="size-3.5" /> Sales opportunity
               </div>
               <h2 className="text-3xl lg:text-4xl font-bold mb-3 tracking-tight">
-                Become a SwipeCards seller.
+                Become a SwipeCards Referral Partner.
               </h2>
               <p className="text-background/70 max-w-xl leading-relaxed">
                 Join our team and help businesses everywhere stop overpaying on processing. Drop
