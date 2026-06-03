@@ -14,8 +14,8 @@ export function Hero() {
             <span className="text-brand">without switching banks.</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-[52ch] mb-10 leading-relaxed">
-            Transparent merchant services for modern business. Save up to 40% on every
-            transaction with next-day deposits, free hardware, and zero setup costs.
+            Honest merchant services for modern business. Custom rates that always beat the
+            banks, next-day deposits, free mobile card readers, and 24/7 US support.
           </p>
           <div className="flex flex-wrap items-center gap-4">
             <a
@@ -50,39 +50,42 @@ function SavingsCard() {
       <div className="bg-card rounded-3xl p-8 border border-border shadow-2xl shadow-brand/10">
         <div className="flex items-center justify-between mb-8">
           <span className="text-[10px] font-bold uppercase tracking-[0.18em] text-muted-foreground">
-            Potential Savings
+            Rate comparison
           </span>
           <span className="flex items-center gap-1.5 text-brand font-semibold text-xs">
-            <span className="size-1.5 rounded-full bg-brand animate-pulse" /> Live estimate
+            <span className="size-1.5 rounded-full bg-brand animate-pulse" /> Custom quote
           </span>
         </div>
-        <div className="flex items-end justify-between mb-8">
-          <div>
-            <div className="text-4xl font-bold text-ink tracking-tight">$1,240<span className="text-xl text-muted-foreground">/mo</span></div>
-            <div className="text-sm text-muted-foreground mt-1">Average fee reduction</div>
-          </div>
-          <div className="h-14 w-32 flex items-end gap-1.5">
-            <div className="w-1/4 bg-brand-soft h-[35%] rounded-sm" />
-            <div className="w-1/4 bg-brand/40 h-[55%] rounded-sm" />
-            <div className="w-1/4 bg-brand/70 h-[78%] rounded-sm" />
-            <div className="w-1/4 bg-brand h-[100%] rounded-sm" />
+        <div className="mb-8">
+          <div className="text-4xl font-bold text-ink tracking-tight">Always lower</div>
+          <div className="text-sm text-muted-foreground mt-1">
+            than what traditional banks charge
           </div>
         </div>
         <div className="h-px bg-border mb-6" />
         <div className="grid grid-cols-2 gap-3">
           <div className="p-4 bg-surface rounded-xl border border-border">
-            <div className="text-[10px] font-semibold uppercase tracking-wider text-muted-foreground mb-1.5">Current rate</div>
-            <div className="text-sm font-semibold text-ink line-through opacity-70">2.9% + 30¢</div>
+            <div className="text-[10px] font-semibold uppercase tracking-wider text-muted-foreground mb-1.5">
+              Traditional bank
+            </div>
+            <div className="text-sm font-semibold text-ink line-through opacity-70">Up to 3.5%</div>
           </div>
           <div className="p-4 bg-brand-soft rounded-xl border border-brand/20">
-            <div className="text-[10px] font-semibold uppercase tracking-wider text-brand mb-1.5">SwipeCards</div>
-            <div className="text-sm font-bold text-brand">1.8% + 10¢</div>
+            <div className="text-[10px] font-semibold uppercase tracking-wider text-brand mb-1.5">
+              SwipeCards
+            </div>
+            <div className="text-sm font-bold text-brand">Lower, always</div>
           </div>
         </div>
+        <p className="text-xs text-muted-foreground mt-5 leading-relaxed">
+          Send your current processing statement to{" "}
+          <span className="text-brand font-semibold">sales@swipecards.cc</span> for an exact
+          side-by-side quote.
+        </p>
       </div>
       <div className="absolute -bottom-5 -right-5 bg-ink text-background rounded-2xl px-5 py-3 shadow-xl hidden sm:block">
-        <div className="text-[10px] uppercase tracking-widest opacity-70">Annual savings</div>
-        <div className="text-lg font-bold">$14,880+</div>
+        <div className="text-[10px] uppercase tracking-widest opacity-70">Reply time</div>
+        <div className="text-lg font-bold">Next business day</div>
       </div>
     </div>
   );

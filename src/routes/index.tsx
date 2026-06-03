@@ -63,9 +63,9 @@ function Index() {
         <RatesTable />
         <EquipmentShowcase />
         <HowItWorks />
-        <Referral />
         <FAQ />
         <ApplyForm />
+        <Referral />
       </main>
       <Footer />
       <Toaster richColors position="top-center" />

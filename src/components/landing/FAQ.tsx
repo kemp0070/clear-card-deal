@@ -28,7 +28,7 @@ const items = [
   },
   {
     q: "How is pricing structured?",
-    a: "We use interchange-plus pricing: you pay the true wholesale card-network cost plus a small, transparent markup. No hidden tiers, no surprise fees.",
+    a: "Every quote is custom to your business — your industry, ticket size, and monthly volume all matter. The best way to see your exact rate is to email a copy of your current processing statement to sales@swipecards.cc and we'll send back a side-by-side comparison by the next business day.",
   },
 ];
 

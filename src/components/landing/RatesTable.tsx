@@ -1,10 +1,4 @@
 export function RatesTable() {
-  const rows = [
-    { type: "Credit (Swiped)", bank: "2.90% + 30¢", us: "1.50% + 10¢" },
-    { type: "Debit (Swiped)", bank: "1.90% + 20¢", us: "0.50% + 5¢" },
-    { type: "E-commerce / Keyed", bank: "3.50% + 30¢", us: "2.20% + 15¢" },
-    { type: "Monthly minimum", bank: "$25", us: "$0" },
-  ];
   return (
     <section id="rates" className="py-24 lg:py-32 bg-ink text-background">
       <div className="max-w-5xl mx-auto px-6">
@@ -12,28 +6,37 @@ export function RatesTable() {
           <div className="text-xs font-bold uppercase tracking-widest text-brand mb-3">Honest pricing</div>
           <h2 className="text-3xl lg:text-5xl font-bold mb-4 tracking-tight">Save on every swipe.</h2>
           <p className="text-background/60 max-w-xl mx-auto">
-            See what wholesale interchange-plus pricing looks like compared to traditional bank rates.
+            Traditional banks often charge up to 3.5% per transaction. Our rates are always lower —
+            customized to your business, your volume, and your industry.
           </p>
         </div>
-        <div className="bg-white/5 border border-white/10 rounded-3xl overflow-hidden backdrop-blur">
-          <div className="grid grid-cols-3 px-8 py-5 border-b border-white/10 text-[10px] font-bold uppercase tracking-[0.18em] text-background/50">
-            <div>Transaction type</div>
-            <div>Traditional bank</div>
-            <div className="text-brand">SwipeCards rate</div>
-          </div>
-          {rows.map((row) => (
-            <div
-              key={row.type}
-              className="grid grid-cols-3 px-8 py-6 border-b border-white/5 last:border-0 items-center"
-            >
-              <div className="font-semibold">{row.type}</div>
-              <div className="text-background/50 line-through">{row.bank}</div>
-              <div className="text-brand font-bold text-lg">{row.us}</div>
+        <div className="bg-white/5 border border-white/10 rounded-3xl overflow-hidden backdrop-blur grid md:grid-cols-2">
+          <div className="p-10 border-b md:border-b-0 md:border-r border-white/10">
+            <div className="text-[10px] font-bold uppercase tracking-[0.18em] text-background/50 mb-4">
+              Traditional bank
             </div>
-          ))}
+            <div className="text-5xl font-bold text-background/60 line-through mb-3">3.50%</div>
+            <p className="text-sm text-background/60 leading-relaxed">
+              Tiered pricing, hidden monthly minimums, and rates that can quietly creep up over time.
+            </p>
+          </div>
+          <div className="p-10 bg-brand/5">
+            <div className="text-[10px] font-bold uppercase tracking-[0.18em] text-brand mb-4">
+              SwipeCards.cc
+            </div>
+            <div className="text-5xl font-bold text-brand mb-3">Always lower</div>
+            <p className="text-sm text-background/70 leading-relaxed">
+              Every quote is custom to your business. Send us a copy of your current processing
+              statement and we'll show you exactly how much you'll save.
+            </p>
+          </div>
         </div>
-        <p className="text-center mt-6 text-xs text-background/40">
-          * Custom rates based on business type and monthly processing volume. Already have a POS system? We can still lower your rate.
+        <p className="text-center mt-8 text-sm text-background/60">
+          Email your most recent processing statement to{" "}
+          <a href="mailto:sales@swipecards.cc" className="text-brand font-semibold hover:underline">
+            sales@swipecards.cc
+          </a>{" "}
+          and we'll get back to you by the next business day.
         </p>
       </div>
     </section>

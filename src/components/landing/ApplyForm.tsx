@@ -44,7 +44,7 @@ export function ApplyForm() {
     // Placeholder submission — wire to email/CRM later
     await new Promise((r) => setTimeout(r, 700));
     setSubmitting(false);
-    toast.success("Thanks! An account manager will reach out within 2 hours.");
+    toast.success("Thanks! We'll get back to you by the next business day.");
     (e.target as HTMLFormElement).reset();
     setInterests([]);
   };
@@ -55,12 +55,24 @@ export function ApplyForm() {
         <div className="lg:sticky lg:top-24">
           <div className="text-xs font-bold uppercase tracking-widest text-brand mb-3">Apply now</div>
           <h2 className="text-3xl lg:text-5xl font-bold text-ink tracking-tight mb-5 text-balance">
-            Get your custom rate proposal in 2 hours.
+            Get your custom rate proposal by the next business day.
           </h2>
           <p className="text-muted-foreground mb-8 leading-relaxed">
-            No commitment. No credit pull. Just an honest comparison of your current rates against
-            ours, prepared by a dedicated account manager.
+            No commitment. Just an honest, side-by-side comparison of your current rates against
+            ours — prepared by a dedicated account manager.
           </p>
+          <div className="rounded-2xl border border-border bg-surface p-5 mb-8">
+            <div className="text-xs font-bold uppercase tracking-widest text-brand mb-2">
+              Already processing?
+            </div>
+            <p className="text-sm text-muted-foreground leading-relaxed">
+              Email a copy of your most recent processing statement to{" "}
+              <a href="mailto:sales@swipecards.cc" className="text-brand font-semibold hover:underline">
+                sales@swipecards.cc
+              </a>{" "}
+              and we'll send back an exact savings breakdown by the next business day.
+            </p>
+          </div>
           <div className="space-y-4 text-sm">
             <div className="flex items-center gap-3"><span className="size-1.5 rounded-full bg-brand" /> 60-second application</div>
             <div className="flex items-center gap-3"><span className="size-1.5 rounded-full bg-brand" /> Custom proposal, not a generic quote</div>
