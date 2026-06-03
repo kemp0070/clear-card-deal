@@ -1,29 +1,74 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Nav } from "@/components/landing/Nav";
+import { Hero } from "@/components/landing/Hero";
+import { TrustStrip } from "@/components/landing/TrustStrip";
+import { ValueProps } from "@/components/landing/ValueProps";
+import { RatesTable } from "@/components/landing/RatesTable";
+import { EquipmentShowcase } from "@/components/landing/EquipmentShowcase";
+import { HowItWorks } from "@/components/landing/HowItWorks";
+import { Referral } from "@/components/landing/Referral";
+import { FAQ } from "@/components/landing/FAQ";
+import { ApplyForm } from "@/components/landing/ApplyForm";
+import { Footer } from "@/components/landing/Footer";
+import { Toaster } from "@/components/ui/sonner";
+
+const TITLE = "SwipeCards.cc — Lower Your Credit Card Processing Fees";
+const DESCRIPTION =
+  "Honest credit card processing at industry-best rates. Free mobile readers, FirstData POS terminals, next-day deposits, and 24/7 US support.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Your App" },
-      { name: "description", content: "Replace this with a one-sentence description of your app." },
-      { property: "og:title", content: "Your App" },
-      { property: "og:description", content: "Replace this with a one-sentence description of your app." },
+      { title: TITLE },
+      { name: "description", content: DESCRIPTION },
+      { property: "og:title", content: TITLE },
+      { property: "og:description", content: DESCRIPTION },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "/" },
+    ],
+    links: [{ rel: "canonical", href: "/" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          name: "SwipeCards.cc",
+          url: "https://swipecards.cc",
+          email: "sales@swipecards.cc",
+          telephone: "+1-866-563-5691",
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: "110 E Schiller #310",
+            addressLocality: "Elmhurst",
+            addressRegion: "IL",
+            postalCode: "60126",
+            addressCountry: "US",
+          },
+        }),
+      },
     ],
   }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="min-h-screen bg-background text-foreground">
+      <Nav />
+      <main>
+        <Hero />
+        <TrustStrip />
+        <ValueProps />
+        <RatesTable />
+        <EquipmentShowcase />
+        <HowItWorks />
+        <Referral />
+        <FAQ />
+        <ApplyForm />
+      </main>
+      <Footer />
+      <Toaster richColors position="top-center" />
     </div>
   );
 }
