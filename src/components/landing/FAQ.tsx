@@ -7,39 +7,31 @@ import {
 
 const items = [
   {
-    q: "Do I need to switch banks to use SwipeCards?",
-    a: "No. We deposit directly to your existing business bank account. There's nothing to change on your end.",
+    q: "Do I need to switch banks?",
+    a: "No. We deposit directly into your existing business account — nothing to change on your end.",
   },
   {
-    q: "What hardware do I get?",
-    a: "All approved merchants get a free mobile card reader. Retail and restaurant accounts also qualify for free FirstData™ POS terminals — we'll match the hardware to your business.",
+    q: "I already have a POS. Can you still lower my rate?",
+    a: "Yes. We support most major POS platforms and reprogram terminals for free so you can keep your current setup and pay less.",
   },
   {
     q: "How fast are deposits?",
-    a: "Most clients are set up with next-day funding. We can usually have your batch in your account by the next business morning.",
-  },
-  {
-    q: "Is there a long-term contract?",
-    a: "No. We compete on rates and service — not lock-in. You can leave any time with no early termination fees.",
-  },
-  {
-    q: "I already have a POS system — can you still help?",
-    a: "Yes. We support most major POS platforms and can reprogram your existing terminals to run on our lower rates. Setup is free.",
+    a: "Most merchants are set up with next-day funding — your batch is in your account the next business morning.",
   },
   {
     q: "How is pricing structured?",
-    a: "Every quote is custom to your business — your industry, ticket size, and monthly volume all matter. The best way to see your exact rate is to email a copy of your current processing statement to sales@swipecards.cc and we'll send back a side-by-side comparison by the next business day.",
+    a: "Every quote is custom to your business. Email a copy of your processing statement to sales@swipecards.cc and we'll send back an exact side-by-side comparison by the next business day.",
   },
 ];
 
 export function FAQ() {
   return (
-    <section id="faq" className="py-24 lg:py-32 bg-surface">
+    <section id="faq" className="py-20 lg:py-28 bg-surface">
       <div className="max-w-3xl mx-auto px-6">
-        <div className="text-center mb-12">
+        <div className="text-center mb-10">
           <div className="text-xs font-bold uppercase tracking-widest text-brand mb-3">FAQ</div>
           <h2 className="text-3xl lg:text-4xl font-bold tracking-tight text-ink">
-            Common questions, honest answers.
+            Quick answers.
           </h2>
         </div>
         <Accordion type="single" collapsible className="bg-card rounded-2xl border border-border px-6">

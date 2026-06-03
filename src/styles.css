@@ -124,3 +124,44 @@
 @utility animate-fade-up {
   animation: fade-up 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
+
+@keyframes float-3d {
+  0%, 100% { transform: perspective(800px) rotateX(12deg) rotateY(-8deg) translateY(0); }
+  50% { transform: perspective(800px) rotateX(12deg) rotateY(-8deg) translateY(-8px); }
+}
+
+@utility text-3d {
+  background: linear-gradient(180deg, var(--brand) 0%, var(--brand-dark) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow:
+    0 1px 0 color-mix(in oklab, var(--brand) 30%, transparent),
+    0 6px 14px color-mix(in oklab, var(--brand) 25%, transparent),
+    0 18px 40px color-mix(in oklab, var(--brand) 18%, transparent);
+  transform: perspective(800px) rotateX(12deg) rotateY(-8deg);
+  transform-origin: 50% 80%;
+  animation: float-3d 6s ease-in-out infinite;
+  display: inline-block;
+  line-height: 0.9;
+  letter-spacing: -0.05em;
+}
+
+@utility text-3d-light {
+  color: oklch(1 0 0 / 0.92);
+  text-shadow:
+    0 1px 0 oklch(1 0 0 / 0.4),
+    0 4px 10px oklch(0 0 0 / 0.3),
+    0 16px 36px oklch(0 0 0 / 0.45);
+  transform: perspective(800px) rotateX(14deg) rotateY(-6deg);
+  transform-origin: 50% 80%;
+  display: inline-block;
+  line-height: 0.9;
+  letter-spacing: -0.05em;
+}
+
+@utility surface-grid {
+  background-image:
+    radial-gradient(circle at 1px 1px, color-mix(in oklab, var(--brand) 12%, transparent) 1px, transparent 0);
+  background-size: 22px 22px;
+}

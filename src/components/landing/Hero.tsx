@@ -1,92 +1,97 @@
-import { ArrowRight, ShieldCheck } from "lucide-react";
+import { ArrowRight, ShieldCheck, Check } from "lucide-react";
 
 export function Hero() {
   return (
     <section id="top" className="relative overflow-hidden">
-      <div className="absolute inset-x-0 top-0 h-[520px] bg-gradient-to-b from-brand-soft/60 via-background to-background -z-10" />
-      <div className="max-w-7xl mx-auto px-6 pt-20 pb-24 lg:pt-28 lg:pb-32 grid lg:grid-cols-2 gap-16 items-center">
+      <div className="absolute inset-x-0 top-0 h-[640px] bg-gradient-to-b from-brand-soft/60 via-background to-background -z-10" />
+      <div className="absolute inset-x-0 top-0 h-[640px] surface-grid opacity-40 -z-10" />
+      <div className="max-w-7xl mx-auto px-6 pt-16 pb-20 lg:pt-24 lg:pb-28 grid lg:grid-cols-[1.1fr_1fr] gap-12 lg:gap-16 items-center">
         <div className="animate-fade-up">
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-soft border border-brand/15 text-brand text-xs font-semibold uppercase tracking-wider mb-6">
-            <ShieldCheck className="size-3.5" /> Industry-best rates, guaranteed
+            <ShieldCheck className="size-3.5" /> Lower rates, guaranteed
           </div>
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-ink leading-[1.05] tracking-tight mb-6 text-balance">
-            Lower your processing fees{" "}
-            <span className="text-brand">without switching banks.</span>
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-ink leading-[1.02] tracking-tight mb-6 text-balance">
+            Keep more of every{" "}
+            <span className="text-brand">swipe.</span>
           </h1>
-          <p className="text-lg text-muted-foreground max-w-[52ch] mb-10 leading-relaxed">
-            Honest merchant services for modern business. Custom rates that always beat the
-            banks, next-day deposits, free mobile card readers, and 24/7 US support.
+          <p className="text-lg text-muted-foreground max-w-[52ch] mb-8 leading-relaxed">
+            Honest merchant services built for modern business — free terminals, next-day
+            deposits, and 24/7 US support. <strong className="text-ink font-semibold">Already have a POS? We'll come in and beat your current rate.</strong>
           </p>
-          <div className="flex flex-wrap items-center gap-4">
+          <div className="flex flex-wrap items-center gap-3 mb-8">
             <a
               href="#apply"
-              className="inline-flex items-center gap-2 bg-brand text-primary-foreground px-6 py-3.5 rounded-xl font-semibold hover:bg-brand-dark transition-colors shadow-lg shadow-brand/15"
+              className="inline-flex items-center gap-2 bg-brand text-primary-foreground px-6 py-3.5 rounded-xl font-semibold hover:bg-brand-dark transition-colors shadow-lg shadow-brand/20"
             >
-              Apply Now <ArrowRight className="size-4" />
+              Get my rate <ArrowRight className="size-4" />
             </a>
             <a
-              href="#rates"
-              className="inline-flex items-center px-6 py-3.5 rounded-xl font-semibold bg-card border border-border hover:bg-surface transition-colors"
+              href="mailto:sales@swipecards.cc"
+              className="inline-flex items-center px-6 py-3.5 rounded-xl font-semibold bg-card border border-border hover:border-brand/40 transition-colors"
             >
-              See Our Rates
+              Email your statement
             </a>
           </div>
-          <div className="mt-10 flex items-center gap-6 text-xs text-muted-foreground">
-            <div className="flex items-center gap-2"><span className="size-1.5 rounded-full bg-emerald-500" /> No long-term contracts</div>
-            <div className="flex items-center gap-2"><span className="size-1.5 rounded-full bg-emerald-500" /> Free terminal program</div>
-            <div className="hidden sm:flex items-center gap-2"><span className="size-1.5 rounded-full bg-emerald-500" /> 24/7 US support</div>
+          <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-xs text-muted-foreground">
+            <Pill>No contracts</Pill>
+            <Pill>Free terminal program</Pill>
+            <Pill>Keep your bank</Pill>
           </div>
         </div>
 
-        <SavingsCard />
+        <HeroVisual />
       </div>
     </section>
   );
 }
 
-function SavingsCard() {
+function Pill({ children }: { children: React.ReactNode }) {
+  return (
+    <div className="flex items-center gap-1.5">
+      <span className="size-4 rounded-full bg-brand-soft text-brand grid place-items-center">
+        <Check className="size-2.5" strokeWidth={3} />
+      </span>
+      {children}
+    </div>
+  );
+}
+
+function HeroVisual() {
   return (
     <div className="relative animate-fade-up [animation-delay:120ms]">
-      <div className="bg-card rounded-3xl p-8 border border-border shadow-2xl shadow-brand/10">
-        <div className="flex items-center justify-between mb-8">
-          <span className="text-[10px] font-bold uppercase tracking-[0.18em] text-muted-foreground">
-            Rate comparison
-          </span>
-          <span className="flex items-center gap-1.5 text-brand font-semibold text-xs">
-            <span className="size-1.5 rounded-full bg-brand animate-pulse" /> Custom quote
-          </span>
-        </div>
-        <div className="mb-8">
-          <div className="text-4xl font-bold text-ink tracking-tight">Always lower</div>
-          <div className="text-sm text-muted-foreground mt-1">
-            than what traditional banks charge
+      <div className="relative bg-card rounded-3xl p-10 lg:p-12 border border-border shadow-2xl shadow-brand/10 overflow-hidden">
+        <div className="absolute -top-20 -right-20 size-64 bg-brand/15 blur-[100px] rounded-full" />
+        <div className="relative">
+          <div className="text-[10px] font-bold uppercase tracking-[0.2em] text-muted-foreground mb-3">
+            Average merchant savings
+          </div>
+          <div className="text-[7rem] sm:text-[8.5rem] font-bold text-3d leading-none mb-2">
+            27%
+          </div>
+          <div className="text-sm text-muted-foreground max-w-xs leading-relaxed">
+            What real businesses save when they switch to SwipeCards from their bank — even when
+            keeping their existing POS.
+          </div>
+          <div className="mt-8 pt-6 border-t border-border grid grid-cols-3 gap-4">
+            <Stat label="Setup fee" value="$0" />
+            <Stat label="Contract" value="None" />
+            <Stat label="Hardware" value="Free" />
           </div>
         </div>
-        <div className="h-px bg-border mb-6" />
-        <div className="grid grid-cols-2 gap-3">
-          <div className="p-4 bg-surface rounded-xl border border-border">
-            <div className="text-[10px] font-semibold uppercase tracking-wider text-muted-foreground mb-1.5">
-              Traditional bank
-            </div>
-            <div className="text-sm font-semibold text-ink line-through opacity-70">Up to 3.5%</div>
-          </div>
-          <div className="p-4 bg-brand-soft rounded-xl border border-brand/20">
-            <div className="text-[10px] font-semibold uppercase tracking-wider text-brand mb-1.5">
-              SwipeCards
-            </div>
-            <div className="text-sm font-bold text-brand">Lower, always</div>
-          </div>
-        </div>
-        <p className="text-xs text-muted-foreground mt-5 leading-relaxed">
-          Send your current processing statement to{" "}
-          <span className="text-brand font-semibold">sales@swipecards.cc</span> for an exact
-          side-by-side quote.
-        </p>
       </div>
-      <div className="absolute -bottom-5 -right-5 bg-ink text-background rounded-2xl px-5 py-3 shadow-xl hidden sm:block">
-        <div className="text-[10px] uppercase tracking-widest opacity-70">Reply time</div>
-        <div className="text-lg font-bold">Next business day</div>
+      <div className="absolute -bottom-5 -left-5 bg-ink text-background rounded-2xl px-5 py-3 shadow-xl hidden sm:block">
+        <div className="text-[10px] uppercase tracking-widest opacity-70">Reply by</div>
+        <div className="text-sm font-bold">Next business day</div>
       </div>
+    </div>
+  );
+}
+
+function Stat({ label, value }: { label: string; value: string }) {
+  return (
+    <div>
+      <div className="text-[9px] font-bold uppercase tracking-wider text-muted-foreground mb-1">{label}</div>
+      <div className="text-base font-bold text-ink">{value}</div>
     </div>
   );
 }
