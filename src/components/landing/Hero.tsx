@@ -72,9 +72,6 @@ function HeroVisual() {
           <div className="text-[7rem] sm:text-[8.5rem] font-bold text-3d leading-none mb-2">
             27%
           </div>
-          <div className="text-sm text-muted-foreground max-w-xs leading-relaxed">
-            What businesses save on credit card processing when they make switch to SwipeCards — even when keeping their existing POS.
-          </div>
           <div className="mt-8 pt-6 border-t border-border grid grid-cols-3 gap-4">
             <Stat label="Setup fee" value="$0" />
             <Stat label="Contracts" value="Transparent" />
