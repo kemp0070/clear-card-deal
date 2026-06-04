@@ -11,8 +11,7 @@ export function Hero() {
             <ShieldCheck className="size-3.5" /> Lower rates, guaranteed
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-ink leading-[1.02] tracking-tight mb-6 text-balance">
-            Lowest rates{" "}
-            <span className="text-brand">available</span>
+            Lowest Rates & <span className="text-brand">Best Service</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-[52ch] mb-8 leading-relaxed">
             Honest pricing, transparent contracts, and full merchant account setup — including
