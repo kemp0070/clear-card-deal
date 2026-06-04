@@ -1,6 +1,9 @@
 import { Check } from "lucide-react";
-import retailImg from "@/assets/pos-retail.jpg";
-import mobileImg from "@/assets/pos-mobile.jpg";
+import retailAsset from "@/assets/pos-retail.png.asset.json";
+import mobileAsset from "@/assets/pos-mobile.png.asset.json";
+
+const retailImg = retailAsset.url;
+const mobileImg = mobileAsset.url;
 
 function Feature({ children }: { children: React.ReactNode }) {
   return (
