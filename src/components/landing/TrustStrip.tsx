@@ -1,5 +1,5 @@
 export function TrustStrip() {
-  const partners = ["VISA", "Mastercard", "AMEX", "Discover", "Apply Now"];
+  const partners = ["VISA", "Mastercard", "AMEX", "Discover", "Apple & Google Pay"];
   return (
     <div className="border-y border-border bg-surface py-10">
       <div className="max-w-7xl mx-auto px-6">

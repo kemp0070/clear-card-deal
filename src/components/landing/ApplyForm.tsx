@@ -53,7 +53,7 @@ export function ApplyForm() {
     <section id="apply" className="py-24 lg:py-32 bg-surface">
       <div className="max-w-6xl mx-auto px-6 grid lg:grid-cols-[1fr_1.2fr] gap-12 lg:gap-20 items-start">
         <div className="lg:sticky lg:top-24">
-          <div className="text-xs font-bold uppercase tracking-widest text-brand mb-3">Apply now</div>
+          <div className="text-xs font-bold uppercase tracking-widest text-brand mb-3">Apple & Google Pay</div>
           <h2 className="text-3xl lg:text-5xl font-bold text-ink tracking-tight mb-5 text-balance">
             Get your custom rate proposal by the next business day.
           </h2>
