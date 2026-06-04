@@ -74,8 +74,8 @@ function HeroVisual() {
           </div>
           <div className="mt-8 pt-6 border-t border-border grid grid-cols-3 gap-4">
             <Stat label="Setup fee" value="$0" />
-            <Stat label="Contracts" value="Transparent" />
-            <Stat label="FUNDING" value="REFERRAL PARTNER" />
+            <Stat label="SUPPORT" value="24/7" />
+            <Stat label="FUNDING" value="NEXT DAY" />
           </div>
         </div>
       </div>
