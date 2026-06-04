@@ -18,13 +18,13 @@ const items = [
   },
   {
     icon: MonitorSmartphone,
-    title: "Honest pricing, transparent contracts, and full merchant account setup — including gateway software, free reprogramming, next-day deposits, and 24/7 US support. Already have a POS? We'll come in and beat your current rate.",
+    title: "\n",
     body: "\n",
   },
   {
     icon: Settings2,
     title: "Free Terminal Programming",
-    body: "AVERAGE MERCHANT SAVINGS WHEN THEY MAKE THE SWITCH",
+    body: "\n",
   },
   {
     icon: Headphones,
