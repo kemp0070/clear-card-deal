@@ -24,7 +24,7 @@ export function Nav() {
             href="#apply"
             className="bg-brand text-primary-foreground px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-brand-dark transition-colors shadow-sm"
           >
-            Apple & Google Pay
+            Contact Us
           </a>
         </div>
       </div>
