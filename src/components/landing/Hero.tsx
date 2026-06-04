@@ -15,11 +15,13 @@ export function Hero() {
           </h1>
           <p className="text-lg text-muted-foreground max-w-[52ch] mb-8 leading-relaxed whitespace-pre-line">
             Honest pricing, zero term transparent contracts, next-day deposits, and 24/7 U.S.-based support.&nbsp;
-            <br /><br /><br /><br /><br />
-            Never accepted credit cards before?&nbsp; Contact us.<br /><br />
-            Already have a processor? Contact us.<br /><br />
+            {"\n\n"}
+            Never accepted credit cards before?&nbsp; Contact us.
+            {"\n"}
+            Already have a processor? Contact us.
+            {"\n"}
             Need support with your credit card or POS system?&nbsp; Contact us.
-            <br /><br /><br /><br /><br />
+            {"\n\n\n"}
             <strong className="text-ink font-semibold">We are proud to have a 98% client retention over 15 years — because we treat your business like our own.</strong>
           </p>
           <div className="flex flex-wrap items-center gap-3 mb-8">
