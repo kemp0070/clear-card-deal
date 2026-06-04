@@ -9,7 +9,7 @@ const items = [
   {
     icon: Zap,
     title: "Next-Day Deposits",
-    body: "110 E. Schiller\nElmhurst, IL 60126",
+    body: "Get your funds when you need them with automated next-business-day deposits directly to your bank account.",
   },
   {
     icon: Building2,
