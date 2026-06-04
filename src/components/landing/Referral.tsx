@@ -45,7 +45,7 @@ export function Referral() {
                 Become a SwipeCards Referral Partner.
               </h2>
               <p className="text-background/70 max-w-xl leading-relaxed">
-                Join our team and help businesses everywhere stop overpaying on processing. Drop
+                Join our network and help businesses stop overpaying on credit card processing. Drop
                 your name, email, and phone number — we'll reach out with everything you need to
                 get started.
               </p>

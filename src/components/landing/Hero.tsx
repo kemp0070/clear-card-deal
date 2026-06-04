@@ -13,10 +13,14 @@ export function Hero() {
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-ink leading-[1.02] tracking-tight mb-6 text-balance">
             Lowest Rates & <span className="text-brand">Best Service</span>
           </h1>
-          <p className="text-lg text-muted-foreground max-w-[52ch] mb-8 leading-relaxed">
-            Honest pricing, transparent contracts, and full merchant account setup — including
-            gateway software, free reprogramming, next-day deposits, and 24/7 US support.{" "}
-            <strong className="text-ink font-semibold">Already have a POS? We'll come in and beat your current rate.</strong>
+          <p className="text-lg text-muted-foreground max-w-[52ch] mb-8 leading-relaxed whitespace-pre-line">
+            Honest pricing, zero term transparent contracts, next-day deposits, and 24/7 U.S.-based support.&nbsp;
+            <br /><br /><br /><br /><br />
+            Never accepted credit cards before?&nbsp; Contact us.<br /><br />
+            Already have a processor? Contact us.<br /><br />
+            Need support with your credit card or POS system?&nbsp; Contact us.
+            <br /><br /><br /><br /><br />
+            <strong className="text-ink font-semibold">We are proud to have a 98% client retention over 15 years — because we treat your business like our own.</strong>
           </p>
           <div className="flex flex-wrap items-center gap-3 mb-8">
             <a
@@ -63,19 +67,18 @@ function HeroVisual() {
         <div className="absolute -top-20 -right-20 size-64 bg-brand/15 blur-[100px] rounded-full" />
         <div className="relative">
           <div className="text-[10px] font-bold uppercase tracking-[0.2em] text-muted-foreground mb-3">
-            Average merchant savings
+            AVERAGE MERCHANT SAVINGS WHEN THEY MAKE THE SWITCH
           </div>
           <div className="text-[7rem] sm:text-[8.5rem] font-bold text-3d leading-none mb-2">
             27%
           </div>
           <div className="text-sm text-muted-foreground max-w-xs leading-relaxed">
-            What real businesses save when they switch to SwipeCards from their bank — even when
-            keeping their existing POS.
+            What businesses save on credit card processing when they make switch to SwipeCards — even when keeping their existing POS.
           </div>
           <div className="mt-8 pt-6 border-t border-border grid grid-cols-3 gap-4">
             <Stat label="Setup fee" value="$0" />
             <Stat label="Contracts" value="Transparent" />
-            <Stat label="Mobile readers" value="Free" />
+            <Stat label="FUNDING" value="REFERRAL PARTNER" />
           </div>
         </div>
       </div>
