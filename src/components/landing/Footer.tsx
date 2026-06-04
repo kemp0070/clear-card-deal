@@ -11,8 +11,8 @@ export function Footer() {
               <Logo className="h-8" invert />
             </div>
             <p className="text-background/60 max-w-sm leading-relaxed">
-              Honest credit card processing for modern businesses. Lower rates, transparent
-              contracts, free mobile card readers, and real support — without changing your bank.
+              Honest credit card processing for modern businesses. Lower rates, no setup
+              charges, and real support — without changing your bank.
             </p>
           </div>
 
@@ -21,7 +21,7 @@ export function Footer() {
             <address className="not-italic text-sm text-background/70 space-y-3">
               <div className="flex items-start gap-2.5">
                 <MapPin className="size-4 mt-0.5 shrink-0 text-background/40" />
-                <span>110 E Schiller #310<br />Elmhurst, IL 60126</span>
+                <span>110 E Schiller<br />Elmhurst, IL 60126</span>
               </div>
               <a href="mailto:sales@swipecards.cc" className="flex items-center gap-2.5 hover:text-background transition-colors">
                 <Mail className="size-4 text-background/40" />
