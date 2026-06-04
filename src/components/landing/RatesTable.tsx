@@ -29,7 +29,7 @@ export function RatesTable() {
             body="Deposits land in your existing business account the next business day. Nothing to change on your end."
           />
           <BeatCard
-            big="Lose"
+            big="Change"
             title="The Fees"
             body="Custom pricing built around your industry, ticket size, and volume — always lower than what your bank charges."
           />
