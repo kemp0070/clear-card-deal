@@ -55,7 +55,7 @@ export function ValueProps() {
                 <item.icon className="size-5" />
               </div>
               <h3 className="text-lg font-bold text-ink mb-2">{item.title}</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">{item.body}</p>
+              <p className="text-sm text-muted-foreground leading-relaxed whitespace-pre-line">{item.body}</p>
             </div>
           ))}
         </div>
