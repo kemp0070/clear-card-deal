@@ -18,13 +18,13 @@ const items = [
   },
   {
     icon: MonitorSmartphone,
-    title: "\n",
-    body: "\n",
+    title: "Gateway Software Included",
+    body: "Virtual terminal, online payments, invoicing, and reporting — all bundled into your merchant account at no extra cost. ",
   },
   {
     icon: Settings2,
     title: "Free Terminal Programming",
-    body: "\n",
+    body: "We never charge our clients a fee to program their terminals.",
   },
   {
     icon: Headphones,
@@ -55,7 +55,7 @@ export function ValueProps() {
                 <item.icon className="size-5" />
               </div>
               <h3 className="text-lg font-bold text-ink mb-2">{item.title}</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed whitespace-pre-line">{item.body}</p>
+              <p className="text-muted-foreground leading-relaxed whitespace-pre-line font-bold text-sm">{item.body}</p>
             </div>
           ))}
         </div>
