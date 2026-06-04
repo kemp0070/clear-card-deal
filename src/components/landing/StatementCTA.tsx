@@ -28,8 +28,7 @@ export function StatementCTA() {
                 >
                   sales@swipecards.cc
                 </a>{" "}
-                and we'll send back an exact savings breakdown by the{" "}
-                <strong className="text-ink font-semibold">next business day</strong>.
+                and we'll send an exact savings breakdown back to you by the next business day.&nbsp; It's that simple.
               </p>
             </div>
             <a

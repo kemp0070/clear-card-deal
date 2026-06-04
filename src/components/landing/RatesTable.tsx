@@ -13,8 +13,7 @@ export function RatesTable() {
             We'll beat the rate you're paying today.
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            Have a POS already? Keep it. We reprogram most major terminals for free and drop you
-            onto a lower rate — usually by the next business day.
+            Have a POS already? We can reprogram most major terminals for free and move you to a lower rate.
           </p>
         </div>
 
@@ -26,13 +25,13 @@ export function RatesTable() {
           />
           <BeatCard
             big="Keep"
-            title="Your bank"
-            body="Deposits land in your existing business account. Nothing to change on your end."
+            title="Your Bank"
+            body="Deposits land in your existing business account the next business day. Nothing to change on your end."
           />
           <BeatCard
             big="Lose"
-            title="The fees"
-            body="Custom pricing built around your industry, ticket size, and volume — always lower than the bank."
+            title="The Fees"
+            body="Custom pricing built around your industry, ticket size, and volume — always lower than what your bank charges."
           />
         </div>
 

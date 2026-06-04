@@ -51,7 +51,7 @@ export function EquipmentShowcase() {
               <ul className="space-y-3 mb-8">
                 <Feature>Dual-screen customer-facing display</Feature>
                 <Feature>Real-time inventory & employee management</Feature>
-                <Feature>Pay-at-table, tipping & kitchen integration</Feature>
+                <Feature>Pay-at-table, tipping & kitchen display integration</Feature>
                 <Feature>End-to-end encryption & PCI compliance</Feature>
               </ul>
               <a href="#apply" className="inline-flex items-center font-semibold text-brand hover:text-brand-dark border-b-2 border-brand pb-1">

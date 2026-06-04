@@ -58,13 +58,12 @@ export function ApplyForm() {
             Get your custom rate proposal by the next business day.
           </h2>
           <p className="text-muted-foreground mb-8 leading-relaxed">
-            No commitment. Just an honest, side-by-side comparison of your current rates against
-            ours — prepared by a dedicated account manager.
+            No commitment — just an honest, side-by-side comparison of your current rates against ours, prepared by a dedicated account manager.
           </p>
           <div className="space-y-4 text-sm">
-            <div className="flex items-center gap-3"><span className="size-1.5 rounded-full bg-brand" /> 60-second application</div>
+            <div className="flex items-center gap-3"><span className="size-1.5 rounded-full bg-brand" /> 60-second electronic application</div>
             <div className="flex items-center gap-3"><span className="size-1.5 rounded-full bg-brand" /> Custom proposal, not a generic quote</div>
-            <div className="flex items-center gap-3"><span className="size-1.5 rounded-full bg-brand" /> Free mobile card readers ship overnight</div>
+            <div className="flex items-center gap-3"><span className="size-1.5 rounded-full bg-brand" /> Hardware specific to your business needs</div>
           </div>
         </div>
 
