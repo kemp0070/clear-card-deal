@@ -39,7 +39,7 @@ export function Referral() {
           <div className="relative grid lg:grid-cols-2 gap-10 items-center">
             <div>
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-background/80 text-xs font-bold uppercase tracking-wider mb-5">
-                <Briefcase className="size-3.5" /> Sales opportunity
+                <Briefcase className="size-3.5" /> REFERRAL OPPORTUNITY
               </div>
               <h2 className="text-3xl lg:text-4xl font-bold mb-3 tracking-tight">
                 Become a SwipeCards Referral Partner.
@@ -82,7 +82,7 @@ export function Referral() {
                 disabled={submitting}
                 className="w-full bg-background text-ink font-bold py-3.5 rounded-xl hover:bg-brand hover:text-primary-foreground transition-colors disabled:opacity-60"
               >
-                {submitting ? "Submitting…" : "Become a seller"}
+                {submitting ? "Submitting…" : "Apply Now"}
               </button>
             </form>
           </div>
