@@ -33,7 +33,7 @@ const reviews = [
 
 export function Testimonials() {
   return (
-    <section className="py-20 lg:py-28 bg-brand-soft relative overflow-hidden">
+    <section id="reviews" className="py-20 lg:py-28 bg-brand-soft relative overflow-hidden scroll-mt-20">
       <div className="absolute -top-40 -right-40 size-[500px] bg-brand/10 blur-[140px] rounded-full" />
       <div className="relative max-w-7xl mx-auto px-6">
         <div className="text-center max-w-2xl mx-auto mb-14">
