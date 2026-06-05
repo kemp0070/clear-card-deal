@@ -49,7 +49,7 @@ export function Testimonials() {
           {reviews.map((review) => (
             <div
               key={review.name + review.location}
-              className="bg-card border border-border rounded-2xl p-8 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all"
+              className="bg-card border border-border rounded-2xl p-8 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all flex flex-col"
             >
               <div className="flex items-center gap-0.5 mb-4">
                 {Array.from({ length: review.stars }).map((_, i) => (
@@ -59,18 +59,13 @@ export function Testimonials() {
                   />
                 ))}
               </div>
-              <blockquote className="text-ink leading-relaxed mb-6 text-[15px]">
+              <blockquote className="text-ink leading-relaxed text-[15px] flex-1">
                 &ldquo;{review.text}&rdquo;
               </blockquote>
-              <div className="flex items-center gap-3">
-                <div className="size-9 rounded-full bg-brand-soft text-brand grid place-items-center text-sm font-bold">
-                  {review.name.charAt(0)}
-                </div>
-                <div>
-                  <div className="text-sm font-semibold text-ink">{review.name}</div>
-                  <div className="text-xs text-muted-foreground">
-                    {review.role} — {review.location}
-                  </div>
+              <div className="mt-6 pt-6 border-t border-border">
+                <div className="text-sm font-semibold text-ink">{review.name}</div>
+                <div className="text-xs text-muted-foreground">
+                  {review.role} — {review.location}
                 </div>
               </div>
             </div>
