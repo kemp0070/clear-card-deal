@@ -65,6 +65,7 @@ function Index() {
         <StatementCTA />
         <EquipmentShowcase />
         <FAQ />
+        <Testimonials />
         <ApplyForm />
         <Referral />
       </main>
