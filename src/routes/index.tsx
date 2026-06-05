@@ -9,6 +9,7 @@ import { EquipmentShowcase } from "@/components/landing/EquipmentShowcase";
 import { FAQ } from "@/components/landing/FAQ";
 import { ApplyForm } from "@/components/landing/ApplyForm";
 import { Referral } from "@/components/landing/Referral";
+import { Testimonials } from "@/components/landing/Testimonials";
 import { Footer } from "@/components/landing/Footer";
 import { Toaster } from "@/components/ui/sonner";
 
