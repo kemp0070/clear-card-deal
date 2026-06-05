@@ -13,6 +13,7 @@ export function Nav() {
             <a href="#solutions" className="hover:text-brand transition-colors">Solutions</a>
             <a href="#equipment" className="hover:text-brand transition-colors">Equipment</a>
             <a href="#rates" className="hover:text-brand transition-colors">Rates</a>
+            <a href="#reviews" className="hover:text-brand transition-colors">Reviews</a>
             <a href="#faq" className="hover:text-brand transition-colors">FAQ</a>
           </div>
         </div>
